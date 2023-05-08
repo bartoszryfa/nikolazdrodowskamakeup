@@ -1,0 +1,281 @@
+body
+{
+    margin:0px;
+    font-family: 'Abyssinica SIL', serif;
+   
+
+}
+#container
+{
+
+    margin-left:auto;
+    margin-right:auto;
+    height:1800px;
+    overflow:hidden;
+ 
+}
+.clear
+{
+    clear:both;
+}
+.nav
+{
+    width:600px;
+    height:280px;
+    margin-top:17px;
+    margin-left:auto;
+    margin-right:auto;
+    overflow:hidden;
+
+    
+}
+#logo
+{
+    text-align:center;
+    letter-spacing:1px;
+}
+#logo p
+{
+    margin-top:-25px;
+    margin-bottom:30px;
+}
+h1
+{
+    font-weight:500;
+    font-size:42px;
+}
+h2
+{
+    position:relative;
+    top:65px;
+    font-size:33px;
+    letter-spacing:6px;
+    color:#333333;
+    text-align:center;
+    margin-bottom:100px;
+}
+.wrapper
+{
+    width:325px;
+    height:20px;
+    opacity:1;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:-20px;
+}
+
+.wrapper li
+{
+   float:left;
+   letter-spacing:0px;
+   list-style-type:none;
+   margin-left:23px;
+   font-weight:400;
+   font-size:17px;
+   text-align:center;
+   opacity:1;
+}
+ 
+li a
+{
+    position:relative;
+    text-decoration:none;
+}
+li a:after
+{
+    content:'';
+    position:absolute;
+    background-color:black;
+    display:block;
+    height:2px;
+    width:0;
+    left:0;
+    bottom:0;
+    
+   
+}
+li a:hover::after
+{
+    width:100%;
+    transition: width 0.3s linear;
+}
+a:link
+{
+    text-decoration:none;
+    color:#808080;
+}
+a:visited
+{
+    color:#808080;
+}
+.social
+{
+    position:relative;
+    top:-207px;
+    left:1381px;
+    width:40px;
+    height:70px;
+}
+.soc
+{
+    margin-bottom:10px;
+}
+.icon-instagram:hover
+{
+    text-decoration: none;
+    opacity:0.7;
+   
+}
+
+.icon-facebook:hover
+{
+    text-decoration: none;
+    opacity:0.7;
+}
+
+.x
+{
+    width:343px;
+
+}
+#cennik
+{
+    width:696px;
+    margin-top:-19px;
+    margin-left:auto;
+    margin-right:auto;
+   
+}
+
+#pakiet
+{
+    width:1400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:70px;
+}
+.pak
+{
+    padding:0.8px;
+    width:343px;
+}
+.pakk
+{
+    display:none;
+}
+/*---------------------------------------------media only screen-------------------------------------------------*/
+
+@media only screen and (max-width: 500px) {
+    body
+    {
+        width:500px;
+        margin:0px;
+    }
+#container
+{
+    width:500px;
+   margin-left:auto;
+   margin-right:auto;
+   height:6570px;
+   overflow:hidden;
+}
+ .nav
+ {
+     width:500px;
+     height:400px;
+     margin-top:17px;
+     margin-left:auto;
+     margin-right:auto;
+     overflow:hidden;
+ }
+ #logo
+ {
+     text-align:center;
+     letter-spacing:1px;
+
+ }
+ h1
+ {
+     font-weight:500;
+     font-size:40px;
+ }
+ h2
+ {
+     position:relative;
+     top:185px;
+     font-size:33px;
+     letter-spacing:6px;
+     color:#333333;
+     text-align:center;
+     
+ }
+ 
+ .wrapper
+ {
+     width:325px;
+     height:20px;
+     opacity:1;
+     margin-left:auto;
+     margin-right:auto;
+     margin-top:-20px;
+ }
+
+ .wrapper li
+ {
+    float:left;
+    letter-spacing:0px;
+    list-style-type:none;
+    margin-left:23px;
+    font-weight:400;
+    font-size:17px;
+    text-align:center;
+    opacity:0.7;
+ }
+ .social
+ {
+     position:relative;
+     top:-230px;
+     left:430px;
+     width:40px;
+     height:70px;
+
+ }
+ .x
+ {
+     width:500px;
+     margin-bottom:-10px;
+
+ }
+ #cennik
+ {
+     width:500px;
+     margin-top:-19px;
+     margin-left:auto;
+     margin-right:auto;
+    
+ }
+
+ #pakiet
+ {
+     width:500px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top:70px;
+ }
+ .pak
+ {
+     padding:0.8px;
+     width:500px;
+     margin-top:-30px;
+ }
+ h2 p
+ {
+     display:none;
+ }
+ .pakk
+ {
+     margin-top:-100px;
+     display:block;
+     width:500px;
+ }
+}

@@ -1,0 +1,92 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXFileReference section */
+		4E3484F928F45B93000E89EE /* cennik.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = cennik.css; sourceTree = "<group>"; };
+		4E3484FA28F47346000E89EE /* mail.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = mail.php; sourceTree = "<group>"; };
+		4E3484FB28F47357000E89EE /* mail.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = mail.css; sourceTree = "<group>"; };
+		4ED756E328EEBA350054A748 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		4ED756E428EEBA450054A748 /* main.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = main.css; sourceTree = "<group>"; };
+		4ED756E528EEBA620054A748 /* omnie.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = omnie.html; sourceTree = "<group>"; };
+		4ED756E628EEBA6E0054A748 /* omnie.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = omnie.css; sourceTree = "<group>"; };
+		4ED756E728F0B9E20054A748 /* kontakt.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = kontakt.html; sourceTree = "<group>"; };
+		4ED756E828F0B9F30054A748 /* kontakt.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = kontakt.css; sourceTree = "<group>"; };
+		4ED756E928F0BA4D0054A748 /* cennik.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = cennik.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		4ED756DC28EEBA150054A748 = {
+			isa = PBXGroup;
+			children = (
+				4ED756E328EEBA350054A748 /* index.html */,
+				4ED756E428EEBA450054A748 /* main.css */,
+				4ED756E528EEBA620054A748 /* omnie.html */,
+				4ED756E628EEBA6E0054A748 /* omnie.css */,
+				4ED756E928F0BA4D0054A748 /* cennik.html */,
+				4E3484F928F45B93000E89EE /* cennik.css */,
+				4ED756E728F0B9E20054A748 /* kontakt.html */,
+				4ED756E828F0B9F30054A748 /* kontakt.css */,
+				4E3484FA28F47346000E89EE /* mail.php */,
+				4E3484FB28F47357000E89EE /* mail.css */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		4ED756DD28EEBA150054A748 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+			};
+			buildConfigurationList = 4ED756E028EEBA150054A748 /* Build configuration list for PBXProject "nikolazdrodowskamakeup" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4ED756DC28EEBA150054A748;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		4ED756E128EEBA150054A748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		4ED756E228EEBA150054A748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4ED756E028EEBA150054A748 /* Build configuration list for PBXProject "nikolazdrodowskamakeup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ED756E128EEBA150054A748 /* Debug */,
+				4ED756E228EEBA150054A748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4ED756DD28EEBA150054A748 /* Project object */;
+}
